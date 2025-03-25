@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmConnect Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #66bb6a;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .header-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .header a:hover {
+            color: #e0f2f7;
+        }
+
+        .content {
+            text-align: center;
+            padding: 150px 20px;
+            background-image: url('intf.1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .content h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            color: #2e7d32;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .content p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .content button {
+            padding: 18px 35px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 15px 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .content button.farmer {
+            background-color: #4caf50;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .content button.farmer:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+        }
+
+        .content button.business {
+            background-color: white;
+            color: #4caf50;
+            border: 2px solid #4caf50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .content button.business:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e8f5e9;
+            color: #616161;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="image.png" alt="FarmConnect Logo">
+            <span class="header-title">FarmConnect</span>
+        </div>
+        <div>
+            <!-- Updated login and signup links to point to GitHub Pages URLs -->
+            <a href="https://krishna9-31.github.io/ghi/">Login</a>
+            <a href="https://krishna9-31.github.io/signup1/">Sign Up</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Revolutionizing Agriculture Through Technology</h1>
+        <p>Platform to connect with buyers, share resources, and grow sustainably</p>
+        <div>
+            <a href="https://krishna9-31.github.io/signup/?role=farmer"><button class="farmer">Join as Farmer</button></a>
+            <a href="https://krishna9-31.github.io/signup/?role=business"><button class="business">Join as Business</button></a>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 FarmConnect. All rights reserved.
+    </div>
+</body>
+
+</html>
